@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  mysql_server:
+    image: mysql
+    container_name: db_growth
+    restart: always
+    ports:
+      - 3306:3306
+    command: --default-authentication-plugin=mysql_native_password
+    volumes: 
+      - ./sql_scripts:/docker-entrypoint-initdb.d/
+    environment: 
+      MYSQL_ROOT_PASSWORD: docker
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080  

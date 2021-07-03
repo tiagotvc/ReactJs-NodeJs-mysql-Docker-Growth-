@@ -1,0 +1,17 @@
+{
+    "banco":{
+        "connectionLimit":"20",
+        "host": "localhost",
+        "usuario": "root",
+        "senha": "docker",
+        "databaseDesafio": "mysql",
+        "dateStrings": "DD/MM/YYYY H:mm:ss"
+    },
+    "bk":{
+        "porta":"3007"
+    },
+    "ambiente":{
+        "dev": "true",
+        "producao":"false"
+    }
+}

@@ -1,0 +1,115 @@
+.Login{
+    right: 30px;
+    top:30px;
+    position: absolute;
+}
+
+.Login input{
+    width: 140px;
+
+}
+
+.Login input:focus {
+    background: gray;
+    color:white;
+  }
+
+.Login label{
+    margin-left: 10px;
+}
+
+.Login button{
+    margin-left: 10px;
+    border-radius: 30px;
+    border:1px solid gray;
+    height: 30px;
+    width: 60px;
+    cursor:pointer;
+}
+
+.Login button:hover{
+   background: tomato;
+   color:white;
+}
+
+.span {
+    color:red;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 14px;
+}
+
+.favoritos {
+    margin-left: 300px;
+    margin-top: -10px;
+    position: absolute;
+    border-radius: 30px;
+    border:none;
+    height: 70px;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+    background: tomato;
+}
+
+
+.favoritos:hover {
+    background: red;
+    border:1px solid black;
+
+}
+
+.loginUser {
+    position: absolute;
+    right: 200px;
+    margin-top: 20px;
+
+}
+
+
+.logout {
+    margin-left: 20px;
+}
+
+.registrar {
+    position:absolute;
+    right: 30px;
+    top:70px;
+
+}
+
+.registerBody {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 650px;
+    
+    
+
+}
+
+.forms {
+    position: absolute;
+    height: 200px;
+    
+}
+
+.forms2{
+    position: absolute;
+    margin-top: 50px;
+    
+}
+
+.buttonzi {
+    position: absolute;
+    margin-top: 150px;
+    left:0px;
+}
+
+.titles {
+    margin-top: 100px;
+    margin-left: 500px;
+
+}

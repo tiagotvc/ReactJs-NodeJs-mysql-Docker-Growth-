@@ -1,0 +1,74 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .selects {
+      position: absolute;
+      left:40px;
+      top:20px;
+      display: flex;
+      
+  }
+
+  .selects select{
+      height: 30px;
+      position: absolute;
+      top:15px;
+      left:90px;
+  }
+
+  .search{
+      position:absolute;
+      top:24px;
+      margin-left: 250px;
+  }
+
+
+
+  .animes-list {
+      width: 94%;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(100px, 1fr)
+    );
+    list-style: none;
+    grid-gap: 4.0rem;
+    margin-top:60px;
+  }
+  
+  .animes-list img {
+    max-width: 100%;
+  }
+
+  .animes-list button {
+      margin-top: 15px;
+      background: orangered;
+      border:none;
+      border-radius: 20px;
+      cursor:pointer;
+      display: flex;
+      margin-left: 18px;
+      color:white;
+      height: 20px;
+      font-weight: bold;
+  }
+
+  .animes-list button:hover {
+      background: paleturquoise;
+      color:black;
+  }
+
+  .link {
+      position: absolute;
+      margin-left: 100px;
+      margin-top: -40px;
+  }
+
+  @media (max-width: 768px) {
+    .animes-list {
+     width: 84%;
+    }
+  }
+  
